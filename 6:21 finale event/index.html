@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kakaopage Event Landing Page</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            max-width: 720px;
+            padding-bottom: 40px;
+        }
+        
+        .static_bottom {
+            background: rgb(255, 210, 1);
+            height: 50px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            max-width: 720px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 16px;
+            font-family: "Roboto", "Helvetica", "AppleSDGothicNeo", "Dotum", "sans-serif" !important;
+            color: rgb(51, 51, 51);
+            font-weight: bold;
+        }
+        
+        .arrow {
+            position: absolute;
+            top: 12px;
+            width: 30px;
+            height: 30px;
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB3aWR0aD0iNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE3LjE3IDMyLjkybDkuMTctOS4xNy05LjE3LTkuMTcgMi44My0yLjgzIDEyIDEyLTEyIDEyeiIvPjxwYXRoIGQ9Ik0wLS4yNWg0OHY0OGgtNDh6IiBmaWxsPSJub25lIi8+PC9zdmc+) no-repeat;
+            background-size: contain;
+            -webkit-animation: bounce 1.4s linear infinite;
+            animation: bounce 1.4s linear infinite;
+        }
+        
+        @-webkit-keyframes bounce {
+            0%,
+            100% {
+                -webkit-transform: none;
+                transform: none;
+                -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            }
+            50% {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+                -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 2);
+                animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 2);
+            }
+        }
+        
+        @keyframes bounce {
+            0%,
+            100% {
+                -webkit-transform: none;
+                transform: none;
+                -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            }
+            50% {
+                -webkit-transform: translateX(5px);
+                transform: translateX(5px);
+                -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 2);
+                animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://kakaopage.co.id/content/Kelas-Rahasia-Sang-Permaisuri/3311">
+        <div>
+            <img alt="" src="static-web/landing01.png" width="100%" />
+            <div class="static_bottom">
+                <p>Baca Sekarang<span class="arrow"></span></p>
+            </div>
+        </div>
+    </a>
+</body>
+
+</html>
